@@ -1,0 +1,33 @@
+.featuredProducts {
+  margin: 90px 180px;
+
+  .top {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+
+    h1 {
+        flex: 2;
+        text-transform: uppercase;
+    }
+
+    p{
+        flex: 3;
+        color: gray;
+    }
+  }
+
+  .bottom {
+    display: flex;
+    overflow: hidden;
+    gap: 30px;
+    overflow-y: hidden;
+    overflow-x: scroll;
+
+    &::-webkit-scrollbar {
+      display: none;
+    }
+
+  }
+}

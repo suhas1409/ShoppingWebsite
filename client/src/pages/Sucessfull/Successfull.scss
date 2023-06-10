@@ -1,0 +1,42 @@
+.success {
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  flex-direction: column;
+
+  h1 {
+    font-size: 50px;
+    padding-top: 50px; 
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+
+  .icon {
+    svg {
+        font-size: 150px;
+        color: #2879fe;
+    }
+  }
+
+  h2 {
+    font-size: 34px;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 70px;
+  }
+
+  button {
+    width: 200px;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #2879fe;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 5px;
+    font-weight: 500;
+    cursor: pointer;
+  }
+}
